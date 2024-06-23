@@ -1,8 +1,8 @@
 ### Integrantes
 
 *Sarah da Rosa Ribeiro
-
 *Paulo Victor Vieira Trindade
+
 ------------------------------
 # Website Agenda Fácil NAF
  Eu estudo [[Desenvolvimento de Software Fullstack](https://cubos.academy/cursos/desenvolvimento-de-software-v2) | [Desenvolvimento de Software com Foco em Back-End](https://cubos.academy/cursos/desenvolvimento-de-software-v2) | Outro ] @ [ [Cubos Academy](https://cubos.academy/) | Faculdade | Escola | Curso]

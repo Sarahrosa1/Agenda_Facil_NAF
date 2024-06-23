@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/Sarahrosa1/Agenda_Facil_NAF/assets/173619411/1171a728-ae9a-47d3-aeb1-2d3047dd4c31">
 </p>
 
-## Integrantes
+## Integrantes 👩🧑
 
 * Sarahh da Rosa Ribeiro
 * Paulo Victor Vieira Trindade
@@ -33,7 +33,7 @@
 ### Objetivos e benefícios do Produto ⚡
  
 * Agendamento online para atendimentos no NAF.
-* Pracidade e eficiência no acesso.
+* Pracidade e eficiência em acesso.
 * Plataforma online 24 horas.
 * Gestão de dias e horários para agendamento.
 * Segurança dos dados inseridos.

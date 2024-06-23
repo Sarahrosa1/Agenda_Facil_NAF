@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/acoes/balcao-fnde-1/icone_agendamento.png/@@images/image">
+<p align="center"><img src="/assets/">
 </p>
 
 ## Integrantes

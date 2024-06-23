@@ -1,4 +1,4 @@
-<p align="center"><img src="/assets/">
+<p align="center"><img src="/assets/calendario.png">
 </p>
 
 ## Integrantes

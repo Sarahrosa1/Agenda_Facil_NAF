@@ -10,8 +10,7 @@
 ### Agenda Fácil NAF 📅
 ------------------------
 
-### Tecnologias e Ferramentas 👨‍💻🔧
-
+## Tecnologias e Ferramentas 👨‍💻🔧
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -30,7 +29,7 @@
 * Informação de qual MVP definido
   
 --------------------------------
-### Objetivos e benefícios do Produto ⚡
+## Objetivos e benefícios do Produto ⚡
  
 * Agendamento online para atendimentos no NAF.
 * Pracidade e eficiência em acesso.
@@ -41,7 +40,7 @@
 * Confirmação de agendamentos por e-mail.
 ----------------------------------
 
-### Público Alvo 🎯
+## Público Alvo 🎯
 
 * Autônomos
 * Estudantes e Jovens Empreendedores
@@ -49,8 +48,8 @@
 
 Com o website Agenda Fácil NAF você poderá otimizar o seu tempo evitando filhas e sem precisar sair de casa, podendo gerenciar a melhor data e horário para o atendimento, além de receber por e-mail a confirmação do agendamento e lembrar ao usuário a data e horário escolhido para se programar.
 
-
-### Nossas Redes Sociais 📱
+------------------------------------
+## Nossas Redes Sociais 📱
 <div>
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>   

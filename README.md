@@ -4,7 +4,6 @@
   <strong>Agenda Fácil NAF 📅</strong>
   </h1>
   
-----------------------------------------
 ## Integrantes 👩🧑
 
 * Sarahh da Rosa Ribeiro
@@ -46,8 +45,12 @@
 * Autônomos
 * Estudantes e Jovens Empreendedores
 * Contribuintes Pessoa Física
+* Professores
+* Administração NAF
 
 Com o website Agenda Fácil NAF você poderá otimizar o seu tempo evitando filhas e sem precisar sair de casa, podendo gerenciar a melhor data e horário para o atendimento, além de receber por e-mail a confirmação do agendamento e lembrar ao usuário a data e horário escolhido para se programar.
+
+Devido a grande demanda no início do ano de agendamentos para Declaração de Imposto de Renda a administração do NAF possui grande impacto na organização e distribuição dos atendimentos, não tendo uma forma mais fácil de gerenciamento.
 
 ------------------------------------
 ## Nossas Redes Sociais 📱

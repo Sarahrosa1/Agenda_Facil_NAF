@@ -1,15 +1,16 @@
 <p align="center"><img src="https://github.com/Sarahrosa1/Agenda_Facil_NAF/assets/173619411/1171a728-ae9a-47d3-aeb1-2d3047dd4c31">
 </p>
-
+<h1 align="center">
+  <strong>Agenda Fácil NAF 📅</strong>
+  </h1>
+  
+----------------------------------------
 ## Integrantes 👩🧑
 
 * Sarahh da Rosa Ribeiro
 * Paulo Victor Vieira Trindade
 
 ------------------------
-### Agenda Fácil NAF 📅
-------------------------
-
 ## Tecnologias e Ferramentas 👨‍💻🔧
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)

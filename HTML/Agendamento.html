@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Agendamento</title>
-    <link rel="stylesheet" type="text/css" href="agendamento.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="CSS/agendamento.css" media="screen"/>
 
     <script src="..\script.js"></script>
     <link rel="stylesheet" href="..\reset.css">
@@ -24,9 +24,9 @@
             <div class="submenu">
                 <nav class="nav_submenu">
                     <div>
-                        <a class="a_submenu" href="login.html">Home</a>
-                        <a class="a_submenu" href="agendamento.html">Agendamento</a>
-                        <a class="a_submenu" href="Avalie.html">Avalie</a>
+                        <a class="a_submenu" href="../index.html">Home</a>
+                        <a class="a_submenu" href="HTML/Agendamento.html">Agendamento</a>
+                        <a class="a_submenu" href="HTML/Avalie.html">Avalie</a>
                     </div>
                 </nav>
             </div>
@@ -76,7 +76,7 @@
                     document.getElementById('agendamentoForm').addEventListener('submit', function(event) {
                         event.preventDefault();
                         alert('Agendamento realizado, confira os dados do agendamento enviados através do seu E-mail!');
-                        window.location.href = 'avalie.html';
+                        window.location.href = 'HTML/avalie.html';
                     });
                 </script>
 

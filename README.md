@@ -48,10 +48,7 @@ Com o website Agenda Fácil NAF você poderá otimizar o seu tempo evitando filh
 Devido a grande demanda no início do ano de agendamentos para Declaração de Imposto de Renda a administração do NAF possui grande impacto na organização e distribuição dos atendimentos, não tendo uma forma mais fácil de gerenciamento.
 
 ------------------------------------
-## Nossas Redes Sociais 📱
+## Nossas Projeto 📱
 
-<div>
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
-<img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>   
-</div>
+<a ref=">
 

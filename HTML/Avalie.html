@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="avalie.css">
+</head>
+<body>
+    <header>
+        <div class="submenu">
+            <nav class="nav_submenu">
+                <div>
+                    <a class="a_submenu" href="login.html">Home</a>
+                    <a class="a_submenu" href="agendamento.html">Agendamento</a>
+                    <a class="a_submenu" href="avalie.html">Avalie</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="avaliacao">
+        <div class="avaliacao_container">
+            <h2 class="titulo_avaliacao">Como você avalia nosso site?</h2>
+            <form id="avaliacaoForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="rating">Avaliação:</label>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" />
+                    <label for="star5" title="5 estrelas">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4" title="4 estrelas">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3" title="3 estrelas">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2" title="2 estrelas">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1" />
+                    <label for="star1" title="1 estrela">&#9733;</label>
+                </div>
+                
+                <label for="comentarios">Comentários:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+                
+                <input type="submit" value="Enviar Avaliação">
+            </form>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('avaliacaoForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Obrigado por sua avaliação!');
+            document.getElementById('avaliacaoForm').reset();
+        });
+    </script>
+</body>
+</html>

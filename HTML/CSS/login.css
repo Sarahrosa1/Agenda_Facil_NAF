@@ -1,0 +1,164 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Inter', 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #131212;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #142796;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.submenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_submenu {
+    display: flex;
+    gap: 10px;
+}
+
+.a_submenu {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.submenu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.a_submenu {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.a_submenu:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.login_container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 0;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+    margin-top: 0em;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="nome"],
+form input[type="senha"], 
+form textarea {
+    width: 120%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: -10%;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.cadastre_container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cadastroForm {
+    display: none;
+    margin-left: 28%;
+    max-width: 600px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0em;
+}
+
+form input[type="nomeCadastro"],
+form input[type="text"], 
+form input[type="passwordCadastro"], 
+form input[type="password"], 
+form textarea {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"][value="Cadastre-se"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+

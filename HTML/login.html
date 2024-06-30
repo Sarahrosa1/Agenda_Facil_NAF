@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Fácil NAF</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="naf.png" alt="Logotipo NAF" width="300px"/>
+        </div>
+        <div class="submenu">
+            <nav class="nav_submenu">
+                <a class="a_submenu" href="login.html">Home</a>
+                <a class="a_submenu" href="agendamento.html">Agendamento</a>
+                <a class="a_submenu" href="avalie.html">Avalie</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <h1>Agende seus atendimentos totalmente online.</h1>
+    </section>
+    <section id="login">
+        <div class="login_container">
+            <h2>Login</h2>
+            <p>Faça seu login e realize o seu agendamento</p>
+            <form id="loginForm">
+                <label for="nome">Usuário:</label>
+                <input type="nome" id="nome" name="nome" required>
+                <label for="senha">Senha:</label>
+                <input type="senha" id="senha" name="senha" required>
+                <input type="submit" value="Entrar">
+                <input type="button" value="Cadastre-se" onclick="showCadastroForm()">
+            </form>
+        </div>
+    </section>
+
+    <section id="cadastre">
+    <form class="form-cadastro" id="cadastroForm">
+        <div class="cadastre_container">
+            <h2>Cadastro de usuário</h2>
+            <label for="nomeCadastro">Nome de usuário:</label>
+            <input type="text" id="nomeCadastro" name="nomeCadastro" required><br>
+            <label for="E-mailCadastro">Digite seu E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="passwordCadastro">Digite uma senha:</label>
+            <input type="password" id="passwordCadastro" name="password" required><br>
+            <label for="passwordConfirm">Digite a senha novamente:</label>
+            <input type="password" id="passwordConfirm" name="password" required><br>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+</section>
+
+    <script>
+        function showCadastroForm() {
+            document.getElementById('cadastroForm').style.display = 'block';
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'agendamento.html';
+        });
+
+        document.getElementById('cadastroForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'login.html';
+        });
+    </script>
+
+</body>
+</html>

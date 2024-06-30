@@ -1,0 +1,143 @@
+/* avalie.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Inter', 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #131212;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #142796;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.submenu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.a_submenu {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.a_submenu:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.avaliacao_container {
+    max-width: 600px;
+    margin: -1rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo_avaliacao {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #050505;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    font-size: 2rem;
+    color: #ddd;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+
+.rating label:nth-child(1) {
+    order: 1;
+}
+
+.rating label:nth-child(2) {
+    order: 2;
+}
+
+.rating label:nth-child(3) {
+    order: 3;
+}
+
+.rating label:nth-child(4) {
+    order: 4;
+}
+
+.rating label:nth-child(5) {
+    order: 5;
+}
+
+.rating input[type="radio"]:checked ~ label {
+    color: #ffc700;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #ffc700;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}

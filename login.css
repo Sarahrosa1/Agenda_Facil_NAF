@@ -91,7 +91,7 @@ form label {
 }
 
 form input[type="nome"],
-form input[type="password"], 
+form input[type="passwordLogin"], 
 form textarea {
     width: 120%;
     padding: 5px;
@@ -133,7 +133,7 @@ form input[type="submit"]:hover {
 
 form input[type="nomeCadastro"],
 form input[type="email"], 
-form input[type="passwordCadastro"], 
+form input[type=""], 
 form input[type="password"], 
 form textarea {
     width: 50%;

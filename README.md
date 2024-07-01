@@ -6,7 +6,7 @@
   
 ## Integrantes 👩🧑
 
-* Sarahh da Rosa Ribeiro
+* Sarah da Rosa Ribeiro
 * Paulo Victor Vieira Trindade
 
 ------------------------

@@ -91,7 +91,7 @@ form label {
 }
 
 form input[type="nome"],
-form input[type="senha"], 
+form input[type="passwordLogin"], 
 form textarea {
     width: 120%;
     padding: 5px;
